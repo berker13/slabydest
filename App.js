@@ -3,7 +3,7 @@ import LongText from './components/long_text';
 
 export default function App() {
   return (
-<ScrollView style={styles.scrollView}>
+  <ScrollView style={styles.scrollView}>
     <View style={styles.container}>
    
     <Button
