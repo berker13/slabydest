@@ -11,7 +11,7 @@ return(
       <Text>
       Zadej prosím svoje údaje 
     </Text>
-<TextInput  style={styles.input}
+    <TextInput  style={styles.input}
         onChangeText={onChangeText}
         value={text}/>
     </View>
