@@ -1,12 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet,  View, ScrollView } from 'react-native';
+import LongText from './components/long_text';
 
 export default function App() {
   return (
+<ScrollView style={scrollView}>
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+
+    <LongText/>
+    
     </View>
+    </ScrollView>
   );
 }
 
@@ -16,5 +19,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },  scrollView: {
+    backgroundColor: 'pink',
+    marginHorizontal: 20,
   },
 });
