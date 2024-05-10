@@ -3,7 +3,7 @@ import MyStack from './components/pages/router';
 
 export default function App() {
   return (
-    <MyStack/>
+ <MyTabs/>
   );
 }
 
