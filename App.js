@@ -1,19 +1,9 @@
 import { StyleSheet, Button, View, ScrollView } from 'react-native';
-import LongText from './components/long_text';
+import MyStack from './components/pages/router';
 
 export default function App() {
   return (
-  <ScrollView style={styles.scrollView}>
-    <View style={styles.container}>
-   
-    <Button
-  title="Login page"
-  color="#841584"
-  accessibilityLabel="Learn more about this purple button"
-    />
-    {/* <LongText/> */}
-    </View>
-    </ScrollView>
+    <MyStack/>
   );
 }
 
