@@ -1,4 +1,5 @@
 import { StyleSheet, Button, View, ScrollView } from 'react-native';
+import React from 'react';
 
 export default function Homepage(){
     return(

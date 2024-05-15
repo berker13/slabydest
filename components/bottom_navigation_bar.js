@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import Homepage from './pages/homepage';
 import LoginPage from './pages/login_page';
-
+import React from 'react';
 const Tab = createBottomTabNavigator();
 
 export default function MyTabs() {
