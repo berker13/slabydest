@@ -14,4 +14,4 @@ export default function MyTabs() {
     </Tab.Navigator>
     </NavigationContainer>
   );
-}n
+}

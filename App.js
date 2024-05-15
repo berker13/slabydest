@@ -3,7 +3,9 @@ import MyTabs from './components/bottom_navigation_bar';
 
 export default function App() {
   return (
-<MyTabs/>
+    <View>
+      <MyTabs/>
+    </View>
   );
 }
 
