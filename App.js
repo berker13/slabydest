@@ -1,10 +1,9 @@
 import { StyleSheet, Button, View, ScrollView } from 'react-native';
-import MyTabs from './components/bottom_navigation_bar';
 
 export default function App() {
   return (
-    <View style ={styles.container}>
-      <MyTabs/>
+    <View style={styles.container}>
+      <MyTabs />
     </View>
   );
 }
@@ -24,7 +23,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },  
+  },
   scrollView: {
     marginHorizontal: 20,
   },
